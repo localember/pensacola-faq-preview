@@ -143,15 +143,6 @@ footer.site{background:var(--ink);color:#94A3B8;font-size:14px;border-top:1px so
 .bar b{font-family:"Plus Jakarta Sans",sans-serif;font-size:14px;color:var(--ink)}
 .bar a.p{color:var(--blue);font-weight:600;text-decoration:none;font-size:14px;margin-right:14px}
 .bar .btn{padding:9px 20px}
-.modal[hidden]{display:none}
-.modal{position:fixed;inset:0;z-index:80;display:flex;align-items:center;justify-content:center;padding:24px}
-.modal-backdrop{position:absolute;inset:0;background:rgba(15,23,42,.55)}
-.modal-card{position:relative;background:#fff;border-radius:20px;padding:28px 24px 24px;max-width:400px;width:100%;box-shadow:0 24px 60px rgba(15,23,42,.3)}
-.modal-card h2{font-size:22px;margin-bottom:8px}
-.modal-card p{margin:0 0 18px;font-size:15px;color:var(--muted)}
-.modal-card .btn{margin-bottom:10px}
-.modal-close{position:absolute;top:10px;right:10px;width:40px;height:40px;border:0;background:var(--bg2);border-radius:50%;cursor:pointer;font-size:20px;line-height:1;color:var(--ink)}
-.modal-close:hover{background:var(--line)}
 @media(max-width:900px){
   nav.main,.hd-r .phone{display:none}
   .burger{display:block}

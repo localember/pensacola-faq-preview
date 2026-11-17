@@ -16,10 +16,10 @@ Design preview only. Nothing here is live on chiropractorpensacola.com.
 - Hours on this preview use the current live homepage hours, including the mid-day breaks (the earlier FAQ preview used a simplified range).
 
 ## Booking
-- "Schedule Now" / "Book" buttons open the same choice used on the live site:
-  - New Patients: https://clinic.patienthealthcenters.org/book?clinic=GILMOR26CTFL
-  - Existing Patients: https://clinic.patienthealthcenters.org/schedule?code=GILMOR26CTFL
-- Live site typo "Exisiting Patients" is corrected here to "Existing Patients".
+- Book and Schedule Now buttons go straight to the live booking calendar, in the same tab (no modal, no New/Existing choice):
+  https://clinic.patienthealthcenters.org/book?clinic=GILMOR26CTFL
+- That matches the live Home and Services "Book Your Appointment" / "Book Your Visit" buttons as of Nov 17, 2026. Those live Book links have no target="_blank".
+- Note: the live header "Schedule Now" control still opened popup 918 (New Patients / Existing Patients) when checked the same day. This preview does not copy that leftover popup.
 
 ## Suggested live URL
 `/services/active-rehabilitation/`
