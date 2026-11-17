@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is chiropractic?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chiropractic is the evaluation of the neuromusculoskeletal system with treatment primarily targeting spinal misalignments, also known as subluxations, in order to increase range of motion, improve  function and remove nerve interference."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What conditions do chiropractors treat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chiropractors treat many different conditions but they primarily focus on treating the musculoskeletal system. Some of the most common chiropractic treatments target neck and back pain, headaches, sciatica, whiplash injuries, joint point and postural issues."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a chiropractic adjustment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chiropractic adjustment is the procedure performed by a chiropractor which repairs the function and stability of spinal structures. The adjustment enables the spinal structures to move into a better alignment which reduces nerve interference and allows the muscles, tendons and ligaments that have been compensating for the misalignment to relax reducing tension at the neck and back."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is chiropractic treatment safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chiropractic treatments are very safe. Your Pensacola Chiropractor is a highly trained clinician who will perform a detailed examination prior to any treatment you receive to make sure you have no contraindications, or reasons you should not receive chiropractic treatment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many chiropractic treatments will I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The amount of chiropractic treatments you will need are specific to each individual patient. Some factors include: is there an acute injury, is there an old injury that was not properly taken care of, are there degenerative spinal issues, does the type of work a person does or an activity they are regularly involved in continually aggravate the symptoms, does a person have postural issues, can a person perform the necessary exercises or is a person willing to perform the necessary exercises that will decrease the amount of time necessary to correct the problem."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the benefits of chiropractic care?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simply put the main benefit of chiropractic care at our office is an improved quality of life by restoring proper function of the body and eliminating or decreasing the frequency and severity of symptoms. This benefit comes from specific chiropractic treatments that are tailored to each patient and their specific needs. Many times this benefit comes from our treatment of neck and back injuries that help to eliminate pain. For some people we help them regain range of motion which decreases stiffness that was preventing them from enjoying physical activities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any risks associated with chiropractic treatment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main risks associated with chiropractic treatment involve contraindications to treatment that patients have before they ever receive chiropractic treatment. This is why Your Pensacola Chiropractor will perform a thorough examination to determine if you have any condition that could be worsened with chiropractic treatment. Read this article that was written by Your Pensacola Chiropractor to help explain some of the more common contraindications to chiropractic treatment in more detail."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are chiropractic adjustments painful?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most people do not experience pain with adjustments, but some do. Usually when adjustments are uncomfortable it is because the muscles and tissues around the area where the adjustment is being performed are already bruised, swollen or in a state of spasm. Fortunately Your Pensacola Chiropractor is able to effectively perform adjustments using different techniques or methods so we can find the best and most comfortable way to treat you!"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why should I pick you as my chiropractor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gilmore Chiropractic is Your Pensacola Chiropractor! You will receive extraordinary customer service along with an individual treatment plan that is made just for you and your specific needs. As Your Pensacola Chiropractor we are open late so you can receive the chiropractic treatment you need at a time that is convenient for you and your schedule!"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the crack sound during the adjustment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The crack sound that is often heard during a chiropractic adjustment is called a cavitation. You can read a more detailed description that Your Pensacola Chiropractor wrote about what causes the crack or popping sound, but it is caused by the formation of a gas bubble inside of a joint that occurs when the joint capsule is being stretched within its normal range of motion which decreases the pressure inside of the joint capsule. Most importantly you should know the cracking sound during a chiropractic adjustment is not caused by the breaking or tearing of any bones, discs or ligaments."
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>FAQ mockup | Premier Chiropractic of Pensacola (design preview)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0F172A;--blue:#274D84;--body:#334155;--muted:#64748B;--gold:#ECBD22;--gold-h:#957715;--bg1:#F9FAFB;--bg2:#F1F4F7;--line:#E2E8F0}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Manrope,system-ui,sans-serif;color:var(--body);font-size:17px;line-height:1.7;background:#fff;padding-bottom:64px}
+h1,h2,h3{font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:var(--ink);margin:0}
+a{color:var(--blue)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+.banner{background:#fff3cd;color:#5b4500;text-align:center;font-size:13px;font-weight:600;padding:6px 12px;border-bottom:1px solid #e8d38a}
+header.site{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+.hd{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:82px}
+.hd img{height:50px;width:auto;display:block}
+.brand{text-decoration:none;display:block}.brand small{display:block;font-size:11px;color:var(--blue);margin-top:2px;line-height:1.2}
+nav.main{display:flex;gap:28px;font-size:14px;font-weight:500}
+nav.main a{color:var(--ink);text-decoration:none}
+nav.main a:hover{color:var(--blue)}
+.hd-r{display:flex;align-items:center;gap:20px}
+.phone{color:var(--body);text-decoration:none;font-size:15px;white-space:nowrap}
+.btn{white-space:nowrap;display:inline-block;background:var(--gold);color:var(--ink);font-family:'Plus Jakarta Sans',sans-serif;font-weight:600;font-size:14px;padding:12px 24px;border-radius:100px;text-decoration:none;border:0;transition:background .2s,color .2s}
+.btn:hover{background:var(--gold-h);color:#fff}
+.btn.lg{font-size:16px;padding:16px 32px}
+.btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.btn.ghost:hover{background:var(--bg2);color:var(--ink)}
+.burger{display:none;width:44px;height:44px;border:0;background:none;padding:10px;cursor:default}
+.burger i,.burger i:before,.burger i:after{display:block;height:3px;background:var(--blue);border-radius:2px;content:"";position:relative}
+.burger i:before{top:-8px}.burger i:after{top:5px}
+.crumbs{font-size:13px;color:var(--muted);padding-top:22px}
+.crumbs a{color:var(--muted);text-decoration:none}
+.hero{background:var(--bg1);padding-bottom:56px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:'Plus Jakarta Sans',sans-serif;font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--blue);margin:22px 0 8px}
+.hero h1{font-size:clamp(34px,5vw,52px);font-weight:800;line-height:1.12;max-width:760px}
+.hero h1 em{font-style:normal;color:var(--blue)}
+.hero p.sub{font-size:19px;color:var(--muted);max-width:640px;margin:16px 0 28px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:48px;padding:64px 0 80px;align-items:start}
+.faqs{display:grid;gap:14px}
+details.faq{border:1px solid var(--line);border-radius:16px;background:#fff;transition:box-shadow .2s,border-color .2s}
+details.faq[open]{border-color:#c9d6ea;box-shadow:0 10px 30px -14px rgba(39,77,132,.35)}
+details.faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px;font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:18px;color:var(--ink);line-height:1.35;min-height:60px}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary:focus-visible{outline:3px solid var(--blue);outline-offset:2px;border-radius:16px}
+details.faq summary i{flex:none;width:32px;height:32px;border-radius:50%;background:var(--bg2);position:relative}
+details.faq summary i:before,details.faq summary i:after{content:"";position:absolute;left:9px;top:15px;width:14px;height:2px;background:var(--blue);transition:transform .2s}
+details.faq summary i:after{transform:rotate(90deg)}
+details.faq[open] summary i{background:var(--blue)}
+details.faq[open] summary i:before,details.faq[open] summary i:after{background:#fff}
+details.faq[open] summary i:after{transform:rotate(0)}
+.ans{padding:0 24px 24px}
+.ans p{margin:0;max-width:68ch}
+aside .card{background:var(--bg1);border:1px solid var(--line);border-radius:16px;padding:24px;position:sticky;top:110px}
+aside h3{font-size:19px;margin-bottom:8px}
+aside p{font-size:15px;margin:0 0 16px}
+aside .btn{display:block;text-align:center;margin-bottom:10px}
+aside .hours{font-size:14px;border-top:1px solid var(--line);margin-top:16px;padding-top:14px;color:var(--body)}
+aside .hours b{color:var(--ink)}
+.cta-band{background:var(--ink);color:#fff;text-align:center;padding:72px 0}
+.cta-band h2{color:#fff;font-size:clamp(28px,4vw,38px);font-weight:800}
+.cta-band p{color:#94A3B8;margin:12px 0 28px}
+.cta-band .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+footer.site{background:var(--ink);color:#94A3B8;font-size:14px;border-top:1px solid #1e293b}
+.ft{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:36px;padding:56px 0 40px}
+.ft img{height:50px;margin-bottom:14px}
+.ft h4{font-family:'Plus Jakarta Sans',sans-serif;color:#7ea3dc;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px}
+.ft a{display:block;color:#94A3B8;text-decoration:none;margin-bottom:8px}
+.ft a:hover{color:#fff}
+.ft p{margin:0 0 10px;line-height:1.6}
+.legal{border-top:1px solid #1e293b;padding:18px 0;font-size:12px;display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between}
+.legal span a{display:inline;margin-right:14px;color:#94A3B8;text-decoration:none}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(15,23,42,.06)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;min-height:56px;gap:12px}
+.bar b{font-family:'Plus Jakarta Sans',sans-serif;font-size:14px;color:var(--ink)}
+.bar a.p{color:var(--blue);font-weight:600;text-decoration:none;font-size:14px;margin-right:14px}
+.bar .btn{padding:9px 20px}
+@media(max-width:900px){
+ nav.main,.hd-r .phone{display:none}
+ .burger{display:block}
+ .layout{grid-template-columns:1fr;padding:40px 0 56px;gap:32px}
+ aside .card{position:static}
+ .ft{grid-template-columns:1fr 1fr}
+}
+@media(max-width:560px){
+ body{font-size:16px}
+ .wrap{padding:0 18px}
+ .hd{min-height:68px}.hd img{height:44px}
+ .hd-r .btn{padding:9px 14px;font-size:12.5px}
+ .hd-r{gap:6px}.hd{gap:8px}.brand small{font-size:9.5px;white-space:nowrap}.hd img{height:40px}
+ details.faq summary{font-size:16.5px;padding:16px 16px}
+ .ans{padding:0 16px 20px}
+ .ft{grid-template-columns:1fr}
+ .bar a.p{display:none}
+ .hero .btn.lg{width:100%;text-align:center}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="banner">Design preview, not live. Mockup of a new FAQ page. Links and forms are inactive.</div>
+<header class="site"><div class="wrap hd">
+ <a href="#" class="brand"><img src="logo-navy.webp" alt="Premier Chiropractic of Pensacola"><small>Formerly Gilmore Chiropractic</small></a>
+ <nav class="main" aria-label="Main"><a href="#">About</a><a href="#">Services</a><a href="#">Conditions</a><a href="#">Patient Stories</a><a href="#">Blog</a><a href="#">Contact</a></nav>
+ <div class="hd-r"><a class="phone" href="tel:+18504736767">(850) 473-6767</a><a class="btn" href="#">Schedule Now</a><button class="burger" aria-label="Menu"><i></i></button></div>
+</div></header>
+
+<section class="hero"><div class="wrap">
+ <div class="crumbs"><a href="#">Home</a> &rsaquo; FAQ</div>
+ <div class="eyebrow">Chiropractor in Pensacola, FL</div>
+ <h1>Frequently Asked <em>Questions</em></h1>
+ <p class="sub">Straight answers from Dr. Gilmore about chiropractic care, adjustments and what to expect.</p>
+ <div class="cta"><a class="btn lg" href="#">Book Your Visit &rarr;</a><a class="btn lg ghost" href="tel:+18504736767">Call (850) 473-6767</a></div>
+</div></section>
+
+<main class="wrap layout">
+ <div class="faqs">
+<details class="faq" open><summary><span>What is chiropractic?</span><i aria-hidden="true"></i></summary><div class="ans"><p>Chiropractic is the evaluation of the neuromusculoskeletal system with treatment primarily targeting spinal misalignments, also known as subluxations, in order to increase range of motion, improve&nbsp; function and remove nerve interference.</p></div></details>
+<details class="faq"><summary><span>What conditions do chiropractors treat?</span><i aria-hidden="true"></i></summary><div class="ans"><p>Chiropractors treat many different conditions but they primarily focus on treating the musculoskeletal system. Some of the most common chiropractic treatments target neck and back pain, headaches, sciatica, whiplash injuries, joint point and postural issues.</p></div></details>
+<details class="faq"><summary><span>What is a chiropractic adjustment?</span><i aria-hidden="true"></i></summary><div class="ans"><p>A chiropractic adjustment is the procedure performed by a chiropractor which repairs the function and stability of spinal structures. The adjustment enables the spinal structures to move into a better alignment which reduces nerve interference and allows the muscles, tendons and ligaments that have been compensating for the misalignment to relax reducing tension at the neck and back.</p></div></details>
+<details class="faq"><summary><span>Is chiropractic treatment safe?</span><i aria-hidden="true"></i></summary><div class="ans"><p>Chiropractic treatments are very safe. Your Pensacola Chiropractor is a highly trained clinician who will perform a detailed examination prior to any treatment you receive to make sure you have no contraindications, or reasons you should not receive chiropractic treatment.</p></div></details>
+<details class="faq"><summary><span>How many chiropractic treatments will I need?</span><i aria-hidden="true"></i></summary><div class="ans"><p>The amount of chiropractic treatments you will need are specific to each individual patient. Some factors include: is there an acute injury, is there an old injury that was not properly taken care of, are there degenerative spinal issues, does the type of work a person does or an activity they are regularly involved in continually aggravate the symptoms, does a person have postural issues, can a person perform the necessary exercises or is a person willing to perform the necessary exercises that will decrease the amount of time necessary to correct the problem.</p></div></details>
+<details class="faq"><summary><span>What are the benefits of chiropractic care?</span><i aria-hidden="true"></i></summary><div class="ans"><p>Simply put the main benefit of chiropractic care at our office is an improved quality of life by restoring proper function of the body and eliminating or decreasing the frequency and severity of symptoms. This benefit comes from specific chiropractic treatments that are tailored to each patient and their specific needs. Many times this benefit comes from our treatment of neck and back injuries that help to eliminate pain. For some people we help them regain range of motion which decreases stiffness that was preventing them from enjoying physical activities.</p></div></details>
+<details class="faq"><summary><span>Are there any risks associated with chiropractic treatment?</span><i aria-hidden="true"></i></summary><div class="ans"><p>The main risks associated with chiropractic treatment involve contraindications to treatment that patients have before they ever receive chiropractic treatment. This is why Your Pensacola Chiropractor will perform a thorough examination to determine if you have any condition that could be worsened with chiropractic treatment. Read this article that was written by Your Pensacola Chiropractor to help explain some of the more common contraindications to chiropractic treatment in more detail.</p></div></details>
+<details class="faq"><summary><span>Are chiropractic adjustments painful?</span><i aria-hidden="true"></i></summary><div class="ans"><p>Most people do not experience pain with adjustments, but some do. Usually when adjustments are uncomfortable it is because the muscles and tissues around the area where the adjustment is being performed are already bruised, swollen or in a state of spasm. Fortunately Your Pensacola Chiropractor is able to effectively perform adjustments using different techniques or methods so we can find the best and most comfortable way to treat you!</p></div></details>
+<details class="faq"><summary><span>Why should I pick you as my chiropractor?</span><i aria-hidden="true"></i></summary><div class="ans"><p>Gilmore Chiropractic is Your Pensacola Chiropractor! You will receive extraordinary customer service along with an individual treatment plan that is made just for you and your specific needs. As Your Pensacola Chiropractor we are open late so you can receive the chiropractic treatment you need at a time that is convenient for you and your schedule!</p></div></details>
+<details class="faq"><summary><span>What is the crack sound during the adjustment?</span><i aria-hidden="true"></i></summary><div class="ans"><p>The crack sound that is often heard during a chiropractic adjustment is called a cavitation. You can read a <a href="https://www.chiropractorpensacola.com/why-does-your-joint-pop-at-the-chiropractor/">more detailed description</a> that Your Pensacola Chiropractor wrote about what causes the crack or popping sound, but it is caused by the formation of a gas bubble inside of a joint that occurs when the joint capsule is being stretched within its normal range of motion which decreases the pressure inside of the joint capsule. Most importantly you should know the cracking sound during a chiropractic adjustment is not caused by the breaking or tearing of any bones, discs or ligaments.</p></div></details>
+ </div>
+ <aside><div class="card">
+  <h3>Still have a question?</h3>
+  <p>Call our Pensacola office and we will be glad to help.</p>
+  <a class="btn" href="tel:+18504736767">Call (850) 473-6767</a>
+  <a class="btn ghost" href="#">Schedule Now</a>
+  <div class="hours"><b>Hours</b><br>Mon, Tue, Thu: 8:00am &ndash; 6:00pm<br>Wed, Fri: 8:00am &ndash; 12:00pm<br>Sat, Sun: Closed<br><br>1801 Creighton Rd<br>Pensacola, FL 32504</div>
+ </div></aside>
+</main>
+
+<section class="cta-band"><div class="wrap">
+ <h2>Ready to Feel Your Best?</h2>
+ <p>Take the first step toward better health for you and your family.</p>
+ <div class="row"><a class="btn lg" href="#">Book Your Appointment &rarr;</a><a class="btn lg ghost" href="tel:+18504736767">Call (850) 473-6767</a></div>
+</div></section>
+
+<footer class="site"><div class="wrap">
+ <div class="ft">
+  <div><img src="logo-light.webp" alt="Premier Chiropractic of Pensacola"><p>Premier Chiropractic of Pensacola provides chiropractic care to the local community.</p><p>1801 Creighton Rd<br>Pensacola, FL 32504</p><p><a href="tel:+18504736767">(850) 473-6767</a></p></div>
+  <div><h4>Services</h4><a href="#">Auto Accident Care</a><a href="#">Wellness Care</a><a href="#">Spinal Decompression</a></div>
+  <div><h4>Conditions</h4><a href="#">Back Pain</a><a href="#">Neck Pain</a><a href="#">Sciatica</a><a href="#">Headaches &amp; Migraines</a><a href="#">Disc Injury</a><a href="#">Whiplash</a><a href="#">View All Conditions &rarr;</a></div>
+  <div><h4>Hours</h4><p><b style="color:#fff">Mon-Tue:</b> 8:00am &ndash; 6:00pm</p><p><b style="color:#fff">Wed:</b> 8:00am &ndash; 12:00pm</p><p><b style="color:#fff">Thu:</b> 8:00am &ndash; 6:00pm</p><p><b style="color:#fff">Fri:</b> 8:00am &ndash; 12:00pm</p><p><b style="color:#fff">Sat-Sun:</b> Closed</p></div>
+ </div>
+ <div class="legal"><span><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Healthcare Disclaimer</a><a href="#">HIPAA Privacy Practices</a><a href="#">Accessibility Statement</a></span><span>&copy; 2026 Local Ember</span></div>
+</div></footer>
+
+<div class="bar"><div class="wrap"><b>Frequently Asked Questions</b><span><a class="p" href="tel:+18504736767">(850) 473-6767</a><a class="btn" href="#">Book Now &rarr;</a></span></div></div>
+</body>
+</html>
